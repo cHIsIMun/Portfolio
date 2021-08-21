@@ -9,23 +9,38 @@
     <link rel="stylesheet" href="css/stylesheet2.css">
 </head>
 <body>
-    <div class="home">
+    <div class="barfull">
         <nav class="navb">
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">SOBRE</a></li>
-                <li><a href="">PROJETOS</a></li>
-                <li><a href="">CONTATO</a></li>
+                <li><a href="#0"onclick="go('#home')">HOME</a></li>
+                <li><a href="#1"onclick="go('#sobre')">SOBRE</a></li>
+                <li><a href="#2"onclick="go('#projetos')">PROJETOS</a></li>
+                <li><a href="#3"onclick="go('#contato')">CONTATO</a></li>
             </ul>
         </nav>
+    </div>
+    <div class="home" id="home">
         <div class="block">
             <h1>Eu sou Lucas Vinicius</h1>
-            <h3>E sou um desenvolvedor apaixonado</h3>
+            <h3>Um dev apaixonado por tecnologia</h3>
             <h4>Front end | Back end | Designer gráfico | GameDev</h4>
         </div>
+        <div class="rsociais">
+            <a href="http://www.discord.com/" target="_blank" rel="noopener noreferrer"><img src="img/discord-icon.svg" alt="Discord"></a>
+            <a href="https://github.com/cHIsIMun" target="_blank" rel="noopener noreferrer"><img src="img/github-icon.svg" alt="Github"></a>
+            <a href="https://www.instagram.com/lucaas.viniciuuus/" target="_blank" rel="noopener noreferrer"><img src="img/insta-icon.svg" alt="Instagram"></a>
+            <a href="http://www.discord.com/" target="_blank" rel="noopener noreferrer"><img src="img/linkedin-icon.svg" alt="Linkedin"></a>
+        </div>
     </div>
-    <div class="sobre"></div>
-    <div class="jobs"></div>
-    <div class="contato"></div>
+    <div class="sobre" id="sobre">
+        <h1>Sobre</h1>
+    </div>
+    <div class="jobs" id="projetos">
+        <h1>Projetos</h1>
+    </div>
+    <div class="contato" id="contato">
+        <h1>Contato</h1>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
